@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+    <Extension path = "/MonoDevelop/Ide/Commands/Edit">
+        <Command id = "EmbedFolder.EmbedFolderCommands.EmbedFolder"
+             _label = "Embed Folder"
+			 _description = "Changes the build action for all nested files (recursively) to be Embedded Resource"
+             defaultHandler = "EmbedFolder.EmbedFolderHandler" />
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/ContextMenu/ProjectPad">
+        <CommandItem id="EmbedFolder.EmbedFolderCommands.EmbedFolder" />
+    </Extension>
+
+</ExtensionModel>
