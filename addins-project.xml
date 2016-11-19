@@ -1,0 +1,7 @@
+<AddinProject appVersion="0.1">
+	<Project>
+		<AddinFile>EmbedFolder/Properties/Manifest.addin.xml</AddinFile>
+		<BuildFile>EmbedFolder.sln</BuildFile>
+		<BuildConfiguration>Debug</BuildConfiguration>
+	</Project>
+<AddinProject/>
